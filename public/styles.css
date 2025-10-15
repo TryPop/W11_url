@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(49, 49, 49);
+    color: rgb(243, 243, 243);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.navtext {
+    font-size: 30px;
+}
+
+.navtext-selected {
+    border-bottom: 3px solid rgb(191, 133, 238);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(191, 133, 238);
+}
